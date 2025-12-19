@@ -3,9 +3,6 @@
 # pandas
 scikit-learn
 joblib
-python3
-git
-dvc
 
 # API
 fastapi
