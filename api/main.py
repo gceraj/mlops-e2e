@@ -1,3 +1,13 @@
+#from fastapi import FastAPI 
+#import joblib
+#app = FastAPI() 
+#model, vectorizer = joblib.load("models/model.pkl")
+#
+#@app.post("/predict")
+#def predict(text: str):
+#    vec = vectorizer.transform([text])
+#    return {"prediction": model.predict(vec)[0]}
+
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import joblib
@@ -31,6 +41,10 @@ def predict(request: PredictionRequest):
         return {"prediction": str(prediction)}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/hello") 
+def read_root(): 
+    return {"Hello": "World"}
 
 
 #from fastapi import FastAPI 
