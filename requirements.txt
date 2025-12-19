@@ -1,7 +1,7 @@
 # Core ML
 # numpy
 # pandas
-# scikit-learn
+scikit-learn
 joblib
 
 # API
