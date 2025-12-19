@@ -13,5 +13,5 @@ streamlit
 requests
 
 # Experiment tracking
-# mlflow
+mlflow
 # boto3
