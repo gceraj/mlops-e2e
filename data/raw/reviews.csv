@@ -3,3 +3,9 @@
 "It is an average product, does what it says.",neutral
 "Exceeded my expectations! Highly recommend.",positive
 "The packaging was damaged upon arrival.",negative
+"This is Good",positive
+"This is Bad",negative
+"This is OK",neutral
+"Good",positive
+"Bad",negative
+"OK",neutral

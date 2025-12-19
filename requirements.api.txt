@@ -1,0 +1,19 @@
+# Core ML
+# numpy
+# pandas
+scikit-learn
+joblib
+dvc
+git
+
+# API
+fastapi
+uvicorn
+
+# UI
+streamlit
+requests
+
+# Experiment tracking
+# mlflow
+# boto3
