@@ -2,7 +2,7 @@
 # numpy
 # pandas
 # scikit-learn
-# joblib
+joblib
 
 # API
 fastapi
