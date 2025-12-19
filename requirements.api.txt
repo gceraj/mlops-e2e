@@ -1,6 +1,6 @@
 # Core ML
 # numpy
-# pandas
+pandas
 scikit-learn
 joblib
 
