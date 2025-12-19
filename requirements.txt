@@ -9,8 +9,8 @@ fastapi
 uvicorn
 
 # UI
-# streamlit
-# requests
+streamlit
+requests
 
 # Experiment tracking
 # mlflow
